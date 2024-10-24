@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45657114-bcf7-4ebf-8c49-3c8f6dff105c" name="Changes" comment="" />
+    <list default="true" id="45657114-bcf7-4ebf-8c49-3c8f6dff105c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 Java Generics/S10L01 Generics/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/10 Java Generics/S10L01 Generics/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +49,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Maven.S10L01 Generics">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="10 Java Generics" />
@@ -130,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729433441944</updated>
       <workItem from="1729433442914" duration="3509000" />
-      <workItem from="1729794538592" duration="746000" />
+      <workItem from="1729794538592" duration="1585000" />
     </task>
     <servers />
   </component>
