@@ -1,17 +1,50 @@
 package org.studyeasy;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+// creating Set
+        Set<String> set = new HashSet<String>();
+        set.add("Amal");
+        set.add("Bimal");
+        set.add("chamila");
+        set.add("Deen");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        for (String name:set){
+            System.out.println(name);
+            //It isn't  print in order
         }
+        //types of collections
+    /*
+Feature	    HashSet	           LinkedHashSet	TreeSet
+Order	    Unordered	       Insertion Order	Sorted Order
+Performance	Fast (O(1))	       Fast (O(1))	    Slower (O(log n))
+Use Case	High performance   Predictable      Sorted data and range operations
+             without order     iteration order
+
+
+    * */
+//example for Threeset
+        Set<String> set2= new TreeSet<>();
+        for (int i=30; i>1; i--){
+            set2.add("A"+i);
+        }
+        System.out.println("Set 2"+set2);
+
+        }
+ //example for LinkedHashSet
+    Set<String> set3= new LinkedHashSet<>();{
+
+        for (int i=30; i>1; i--){
+            set3.add("A"+i);
+        }
+        System.out.println("Set 3"+set3);
     }
-}
+
+    }
+
