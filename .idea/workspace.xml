@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45657114-bcf7-4ebf-8c49-3c8f6dff105c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/11 Java Collection/Custom Sorting With comparator interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11 Java Collection/Java Queue/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 Java Collection/Custom Sorting With comparator interface/src/main/java/org/studyeasy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/11 Java Collection/Custom Sorting With comparator interface/src/main/java/org/studyeasy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 Java Collection/Custom Sorting With comparator interface/target/classes/org/studyeasy/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/11 Java Collection/Custom Sorting With comparator interface/target/classes/org/studyeasy/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11 Java Collection/Custom Sorting With comparator interface/target/classes/org/studyeasy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/11 Java Collection/Custom Sorting With comparator interface/target/classes/org/studyeasy/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11 Java Collection/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/11 Java Collection/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +38,7 @@
     "Application.Main (2).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.org.studyeasy.Main (1).executor": "Run",
+    "Application.org.studyeasy.Main (2).executor": "Run",
     "Application.org.studyeasy.Main.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.S10L01 Generics.executor": "Run",
@@ -48,11 +52,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/pansi/IdeaProjects/Java practice/11 Java Collection/Custom Sorting With comparator interface/src/main/java/org/studyeasy/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/pansi/IdeaProjects/Java practice/11 Java Collection/Java Queue/src/main/java/org/studyeasy/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.org.studyeasy.Main (1)">
+  <component name="RunManager" selected="Application.org.studyeasy.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="10 Java Generics" />
@@ -67,16 +71,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Java practice" />
+    <configuration name="org.studyeasy.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.studyeasy.Main" />
+      <module name="CustomSorting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.studyeasy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.studyeasy.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="org.studyeasy.Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.studyeasy.Main" />
-      <module name="CustomSorting" />
+      <module name="JavaQueue" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.studyeasy.*" />
@@ -133,19 +143,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.org.studyeasy.Main (1)" />
+      <item itemvalue="Application.org.studyeasy.Main (2)" />
       <item itemvalue="Application.org.studyeasy.Main" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Maven.S10L01 Generics" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.studyeasy.Main (2)" />
         <item itemvalue="Application.org.studyeasy.Main (1)" />
         <item itemvalue="Application.org.studyeasy.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -168,26 +178,11 @@
       <workItem from="1729433442914" duration="3509000" />
       <workItem from="1729794538592" duration="1585000" />
       <workItem from="1730005263556" duration="7229000" />
-      <workItem from="1730135897390" duration="2556000" />
+      <workItem from="1730135897390" duration="6696000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/11 Java Collection/Custom Sorting With comparator interface/src/main/java/org/studyeasy/Main.java</url>
-          <line>27</line>
-          <properties class="org.studyeasy.Main" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
