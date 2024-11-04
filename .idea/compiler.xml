@@ -9,6 +9,7 @@
         <module name="CustomSorting" />
         <module name="JavaQueue" />
         <module name="JAVAthreads" />
+        <module name="14JavaLamda" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45657114-bcf7-4ebf-8c49-3c8f6dff105c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/12 JAVA threads/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12 JAVA threads/target/classes/org/studyeasy/myCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14 Java Lamda/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14 Java Lamda/src/main/java/org/studyeasy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14 Java Lamda/target/classes/org/studyeasy/Lamda.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14 Java Lamda/target/classes/org/studyeasy/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 JAVA threads/src/main/java/org/studyeasy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/12 JAVA threads/src/main/java/org/studyeasy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 JAVA threads/target/classes/org/studyeasy/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 JAVA threads/target/classes/org/studyeasy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/12 JAVA threads/target/classes/org/studyeasy/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +58,20 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/pansi/IdeaProjects/Java practice/12 JAVA threads/src/main/java/org/studyeasy/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/pansi/IdeaProjects/Java practice/14 Java Lamda/src/main/java/org/studyeasy/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="S10L01 Generics" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.studyeasy.Main" />
+      <module name="14JavaLamda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.studyeasy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,20 +160,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.org.studyeasy.Main (1)" />
       <item itemvalue="Application.org.studyeasy.Main (2)" />
       <item itemvalue="Application.org.studyeasy.Main" />
-      <item itemvalue="Application.Main (2)" />
       <item itemvalue="Maven.S10L01 Generics" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.studyeasy.Main (2)" />
         <item itemvalue="Application.org.studyeasy.Main (1)" />
         <item itemvalue="Application.org.studyeasy.Main" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +198,8 @@
       <workItem from="1730005263556" duration="7229000" />
       <workItem from="1730135897390" duration="6696000" />
       <workItem from="1730306922003" duration="72000" />
-      <workItem from="1730427535278" duration="2086000" />
+      <workItem from="1730427535278" duration="4938000" />
+      <workItem from="1730551529272" duration="7091000" />
     </task>
     <servers />
   </component>
@@ -197,7 +211,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/12 JAVA threads/src/main/java/org/studyeasy/Main.java</url>
-          <line>45</line>
+          <line>74</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
